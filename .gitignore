@@ -1,0 +1,19 @@
+# Node modules
+/backend/node_modules/
+/frontend/node_modules/
+
+# Uploaded files (optional: you usually don't want PDFs in Git)
+/backend/files/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Frontend build
+/frontend/build/
