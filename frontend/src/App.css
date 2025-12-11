@@ -1,0 +1,114 @@
+.App {
+  max-width: 800px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+
+.formstyle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+}
+
+.formstyle h4 {
+  text-align: center;
+  color: #333;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #a71d2a;
+}
+
+.uploaded h4 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.output-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inner-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+}
+
+.inner-div h5 {
+  margin: 0;
+  color: #555;
+  flex: 1 1 200px;
+}
+
+.inner-div button {
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .inner-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .inner-div button {
+    margin-top: 8px;
+    width: 100%;
+  }
+}
